@@ -1,0 +1,89 @@
+/* css for dashboard page */
+.mini-stat {
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px !important;
+    border: none !important;
+    border-right: 5px solid #626ed4 !important;
+}
+
+.topBar {
+    margin-top: 4rem;
+}
+
+.topBar {
+    padding: 2rem;
+}
+
+.card-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal-header {
+    border-top: 5px solid #626ed4;
+}
+
+.modal-footer {
+    border-top: none !important;
+}
+
+.modal-body .row .col-md-12,
+.modal-body .row .col-md-6 {
+    margin-bottom: 1rem;
+}
+
+.errorColor {
+    color: red;
+}
+
+.btn-info {
+    color: #fff !important;
+    background-color: #626ed4 !important;
+    border-color: #626ed4 !important;
+}
+
+.modal-body label {
+    padding-bottom: 5px;
+}
+
+.card input[type="text"],
+.card select,
+.modal-body input[type="text"],
+[type="password"],
+[type="date"],
+[type="file"],
+[type="email"],
+[type="datetime-local"],
+[type="number"],
+.modal-body select option {
+    height: 40px !important;
+    border-radius: 20px !important;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px !important;
+    border: none !important;
+}
+
+.modal-body select option {
+    background-color: #eee3e0;
+}
+
+.modal-body select option:hover {
+    color: #fff !important;
+    background-color: #626ed4 !important;
+}
+
+.modal-body textarea {
+    height: 80px;
+    border-radius: 20px;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+    border: none;
+}
+
+.modal-content {
+    background-color: #f9f9f9 !important;
+}
+.modal-body input[type="radio:checked"] {
+    background-color: #626ed4;
+}
+.modal-body input[type="radio"]:focus {
+    border-radius: 60% !important;
+    background-color: #626ed4;
+}
